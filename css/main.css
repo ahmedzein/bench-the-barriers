@@ -83,6 +83,7 @@ img {
   padding: 0;
   background-color: #fff;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .header-logo {
@@ -90,7 +91,7 @@ img {
   height: 4rem;
   width: auto;
   padding-top: 0.75rem;
-  width: auto;
+  padding-left: 0.65rem;
 }
 
 /*////////////////TOGGLE/////////////////*/
@@ -100,7 +101,7 @@ img {
   text-align: right;
   position: absolute;
   padding-top: 0.6rem;
-  left: 80%;
+  left: 84%;
 }
 
 #nav-trigger span {
@@ -143,9 +144,7 @@ nav {
 }
 
 nav#nav-main {
-  background-color: #ff9650;
   padding: 1rem 0;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 nav#nav-main ul {
@@ -171,11 +170,6 @@ nav#nav-main a {
   padding: 0px 30px;
   float: left;
   text-decoration: none;
-}
-
-nav#nav-main a:hover {
-  background-color: #f26522;
-  color: #fff;
 }
 
 nav#nav-mobile {
@@ -226,6 +220,25 @@ nav#nav-main {
 
 nav#nav-mobile {
   display: block;
+}
+
+.nav-btn-donate {
+  color: #fff;
+  background-color: #38618C;
+  text-align: center;
+  padding: 10px;
+  max-width: 150px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.nav-btn-donate:hover {
+  background-color: #2A4969;
+}
+
+.nav-btn-donate a {
+  color: #FFF;
+  text-decoration: none;
 }
 
 @media all and (max-width: 900px) {
@@ -370,6 +383,15 @@ nav#nav-mobile {
   margin: 0 auto;
 }
 
+.btn-donate:hover {
+  background-color: #2A4969;
+}
+
+.btn-donate a {
+  color: #FFF;
+  text-decoration: none;
+}
+
 /*//////////////////////FOOTER/////////////////*/
 
 footer h6 a {
@@ -396,7 +418,17 @@ footer h6 a {
   width: 35px;
 }
 
+.aez-link {
+  text-align: left;
+}
 
+.aez-link a {
+  text-decoration: none;
+}
+
+.aez-link a:hover {
+  text-decoration: underline;
+}
 
 
 
@@ -423,7 +455,14 @@ footer h6 a {
     font-size:120%;
   }
   #nav-trigger {
-    left: 95%;
+    left: 94%;
+  }
+  #nav-trigger span {
+    border-radius: 10px;
+    font-size: 44px;
+  }
+  .header-logo {
+    height: 4rem;
   }
   .box-call {
     background-color: transparent;
@@ -435,6 +474,13 @@ footer h6 a {
   .title {
     font-size: 2.5745rem;
     line-height: 3.275rem;
+  }
+  .aez-link {
+    text-align: right;
+  }
+  .btn-donate {
+    padding: 20px;
+    max-width: 200px;
   }
 }
 
@@ -464,7 +510,7 @@ footer h6 a {
     display: none;
   }
   nav#nav-main {
-    display: block;
+    display: inline-block;
   }
   nav {
     margin-bottom: 0;
@@ -476,10 +522,14 @@ footer h6 a {
     height: 4rem;
   }
   .box-call {
-    bottom: 90px;
+    top: 6rem;
   }
   .title {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+  .btn-donate {
+    max-width: 250px;
   }
 }
 
@@ -493,7 +543,7 @@ footer h6 a {
   html {
     font-size: 190%;
   }
-  .box-call {
-    top: 2.5rem;
+  .btn-donate {
+    max-width: 310px;
   }
 }
