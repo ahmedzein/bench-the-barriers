@@ -269,7 +269,40 @@ nav#nav-mobile {
   overflow: visible;
   height: 100%;
   width: 100%;
-  background: black url(../images/bench-the-barriers-banner.png) no-repeat center center;
+  background: black url(../images/banner-btb-home.png) no-repeat center center;
+  background-size: cover;
+}
+
+.banner-img-2 {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  overflow: visible;
+  height: 100%;
+  width: 100%;
+  background: black url(../images/banner-btb-resources.png) no-repeat center center;
+  background-size: cover;
+}
+
+.banner-img-3 {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  overflow: visible;
+  height: 100%;
+  width: 100%;
+  background: black url(../images/banner-btb-the-team.png) no-repeat center center;
+  background-size: cover;
+}
+
+.banner-img-4 {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  overflow: visible;
+  height: 100%;
+  width: 100%;
+  background: black url(../images/banner-btb-events.png) no-repeat center center;
   background-size: cover;
 }
 
@@ -279,7 +312,7 @@ nav#nav-mobile {
   color: white;
   text-align: center;
   width: 100%;
-  top: 15%;
+  top: 35%;
 }
 
 .title {
@@ -397,10 +430,12 @@ nav#nav-mobile {
 footer h6 a {
   text-decoration: none;
   color: #000;
+  cursor: pointer;
 }
 
 .ft-list {
   list-style-type: none;
+  margin: 0;
   padding: 0;
 }
 
@@ -411,6 +446,14 @@ footer h6 a {
 }
 
 .box {
+  display: inline-block;
+}
+
+.ft-header {
+  display: flex;
+}
+
+.ft-header ul li {
   display: inline-block;
 }
 
@@ -428,6 +471,24 @@ footer h6 a {
 
 .aez-link a:hover {
   text-decoration: underline;
+}
+
+
+/*//////////////////////RESOURCES/////////////////*/
+
+.resource-title {
+  color: #38618C;
+}
+
+.resource-link {
+  text-decoration: none;
+  color: #38618C;
+  cursor: pointer;
+}
+
+.resource-list{
+  list-style-type: none;
+  padding: 0;
 }
 
 
@@ -531,6 +592,9 @@ footer h6 a {
   .btn-donate {
     max-width: 250px;
   }
+  .social-icon {
+    width: 45px;
+  }
 }
 
 @media only screen and (max-width: 75em) {
@@ -545,5 +609,8 @@ footer h6 a {
   }
   .btn-donate {
     max-width: 310px;
+  }
+  .social-icon {
+    width: 55px;
   }
 }
