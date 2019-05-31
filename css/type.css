@@ -6,7 +6,7 @@
 html {
   font-size: 100%;
   line-height: 1.3;
-  font: normal 100%/1.5 "Montserrat", sans-serif;
+  font: normal 100%/1.5 "Roboto", sans-serif;
 }
 
 @media only screen and (min-width: 60em) {
