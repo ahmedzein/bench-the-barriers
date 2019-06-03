@@ -257,7 +257,7 @@ nav#nav-mobile {
 
 .banner {
   position: relative;
-  padding-top: 65%;
+  padding-top: 50%;
   overflow: hidden;
   display: block;
 }
@@ -312,7 +312,7 @@ nav#nav-mobile {
   color: white;
   text-align: center;
   width: 100%;
-  top: 35%;
+  top: 23%;
 }
 
 .title {
@@ -528,7 +528,7 @@ footer h6 a {
   .box-call {
     background-color: transparent;
     position: absolute;
-    top: 7.5rem;
+    top: 5.5rem;
     font-size: 1.5745rem;
     line-height: 2.2750rem;
   }
@@ -583,7 +583,7 @@ footer h6 a {
     height: 4rem;
   }
   .box-call {
-    top: 6rem;
+    top: 3rem;
   }
   .title {
     font-size: 3.5rem;
@@ -594,6 +594,18 @@ footer h6 a {
   }
   .social-icon {
     width: 45px;
+  }
+
+  .container.max {
+    max-width: 100%;
+  }
+
+  nav#nav-main a {
+    color: #000000;
+  }
+
+  nav#nav-main a.nav-btn-donate {
+    color: #ffffff;
   }
 }
 
@@ -612,5 +624,11 @@ footer h6 a {
   }
   .social-icon {
     width: 55px;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  nav#nav-main ul {
+    padding-top: 20px;
   }
 }
