@@ -227,7 +227,6 @@ nav#nav-mobile {
   background-color: #38618C;
   text-align: center;
   padding: 10px;
-  max-width: 150px;
   border-radius: 10px;
   margin: 0 auto;
 }
@@ -235,6 +234,20 @@ nav#nav-mobile {
 .nav-btn-donate:hover {
   background-color: #2A4969;
 }
+
+/* nav#nav-main li:last-child {
+  color: #fff;
+  background-color: #38618C;
+  text-align: center;
+  padding: 10px;
+  max-width: 150px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+nav#nav-main:hover li:last-child {
+  background-color: #2A4969;
+} */
 
 .nav-btn-donate a {
   color: #FFF;
