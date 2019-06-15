@@ -235,7 +235,7 @@ nav#nav-mobile {
   background-color: #2A4969;
 }
 
-/* nav#nav-main li:last-child {
+/* nav#nav-main li:last-child: {
   color: #fff;
   background-color: #38618C;
   text-align: center;
@@ -244,10 +244,11 @@ nav#nav-mobile {
   border-radius: 10px;
   margin: 0 auto;
 }
-
-nav#nav-main:hover li:last-child {
+*/
+nav#nav-main:hover li:last-child a {
   background-color: #2A4969;
-} */
+  border-radius: 10px;
+}
 
 .nav-btn-donate a {
   color: #FFF;
