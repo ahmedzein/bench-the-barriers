@@ -1,6 +1,6 @@
 # benchthebarriers
 
-3 Canadian basketball fans talking about basketball every week.
+A knowledgeable and supportive community that provides continuous care to healthy, resilient and successful athletes.
 
 
 Reach us at:
