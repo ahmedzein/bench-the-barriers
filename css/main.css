@@ -245,10 +245,10 @@ nav#nav-mobile {
   margin: 0 auto;
 }
 */
-nav#nav-main:hover li:last-child a {
+/* nav#nav-main:hover li:last-child a {
   background-color: #2A4969;
   border-radius: 10px;
-}
+} */
 
 .nav-btn-donate a {
   color: #FFF;
